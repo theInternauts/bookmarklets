@@ -1,0 +1,1 @@
+javascript:!function(o){var t=["l.afar.com:3000","staging.afar.com","staging2.afar.com","www.afar.com"],a=t.indexOf(o.location.host);a>=0?(o.stop(),newHost=t[(a+1)%t.length],o.location.href=o.location.href.replace("https://","http://").replace(o.location.host,newHost)):console.log("You aren't starting on one of the AFAR URLs: ",t.toString())}(window);
